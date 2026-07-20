@@ -8,7 +8,6 @@ public class Logger {
         if (instance == null) {
             instance = new Logger();
         }
-        
         return instance;
     }
 
