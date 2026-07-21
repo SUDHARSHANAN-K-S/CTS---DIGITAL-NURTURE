@@ -10,9 +10,9 @@ public class BookService {
         this.bookRepository = bookRepository;
     }
 
-    public void showService() {
-        System.out.println("Book Service Initialized");
-        bookRepository.display();
+    public void displayBook() {
+        System.out.println("Book Service is running.");
+        bookRepository.getBook();
     }
 
 }
